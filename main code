@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Tickets, Plays, Sports, Events & Cinemas</title>
+        <link rel="icon" href="images/icon.png" type="image/icon type">
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <style>
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="input-group" style="background-color:#333545;height: 66px;"  class="container">
+                <img src="images/book.jpg" style="padding-left:120px;margin-top:10px" height="50px" width="250px" >
+                <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities" style="border-radius:6px;height:40px;width:600px;margin-top: 12px;margin-left:10px">
+                <select name="Vizag" style="margin-left:300px;background-color: #333545;color: white;border: none;width: 100px;height:40px;margin-top:15px">
+                    <option value="x">Vizag(Visakhapatnam)</option>
+                    <option value="x">Hyderabad</option>
+                    <option value="x">Mumbai</option>
+                    <option value="x">New Delhi</option>
+                    <option value="x">Rajahmundry</option>
+                </select>
+                <button style="border-radius:6px; height:25px;width:70px;margin-top:22px;margin-left:15px;background-color:#F84464;color:#FFFFFF;border:none;font-size:13px;font-style:roboto sans-serif">Sign in</button>
+                <p style="font-size:30px;color:white;margin-left:15px;margin-top:10px;" >≡</p>
+            </div>
+        </div>
+        <div>
+            <div class="input-group" style="background-color:#222539;height: 40px;"  class="container">
+                <button style="border:none;background-color:#222539;color:#CCCCCC;font-size:14px;margin-left:120px;">Movies</button>
+                <button style="border:none;background-color:#222539;color:#CCCCCC;font-size:14px;margin-left:10px;">Stream</button>
+                <button style="border:none;background-color:#222539;color:#CCCCCC;font-size:14px;margin-left:10px;">Events</button>
+                <button style="border:none;background-color:#222539;color:#CCCCCC;font-size:14px;margin-left:10px;">Plays</button>
+                <button style="border:none;background-color:#222539;color:#CCCCCC;font-size:14px;margin-left:10px;">Sports</button>
+                <button style="border:none;background-color:#222539;color:#CCCCCC;font-size:14px;margin-left:10px;">Activities</button>
+                <button style="border:none;background-color:#222539;color:#CCCCCC;font-size:14px;margin-left:10px;">Buzz</button>
+                <button style="border:none;background-color:#222539;color:#FFFFFF;font-size:14px;margin-left:550px;">ListYourShow</button>
+                <button style="border:none;background-color:#222539;color:#FFFFFF;font-size:14px;margin-left:10px;">Corporates</button>
+                <button style="border:none;background-color:#222539;color:#FFFFFF;font-size:14px;margin-left:10px;">Offers</button>
+                <button style="border:none;background-color:#222539;color:#FFFFFF;font-size:14px;margin-left:10px;">Gift Cards</button>
+            </div>
+        </div>
+        <div style="border-radius:10px;height:300px;width:1500px;margin-left:15px;margin-top:10px">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/1.jpg"class="d-block" style="width:80%;margin-left: 150px;border-radius: 10px;">
+                  </div>
+                  
+                  <div class="carousel-item active">
+                    <img src="images/2.jpg"  class="d-block" style="width:80%;margin-left: 150px;border-radius: 10px;">
+                  </div>
+            
+                  <div class="carousel-item active">
+                    <img src="images/3.jpg"  class="d-block" style="width:80%;margin-left: 150px;border-radius: 10px;">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+        <br><br></div>
+        <h3 style="margin-left:112px">Recommended Movies</h3><a href="https://in.bookmyshow.com/explore/movies-vizag-visakhapatnam" style="color:#F84464;margin-left:1340px;display:inline">See all></a>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="https://in.bookmyshow.com/vizag-visakhapatnam/movies/ramarao-on-duty/ET00312747"><img height="400px" width="230px" style="border-radius:10px" src="images/ramarao.jpg"></a>
+                    <h5>Ramarao On Duty</h5>
+                    <p style="color:#666666">Action/Drama/Thriller</p>
+                </div>
+                <div class="col">
+                    <a href="https://in.bookmyshow.com/vizag-visakhapatnam/movies/vikrant-rona/ET00128225"><img height="400px" width="230px" style="border-radius:10px" src="images/vikrant.jpg"></a>
+                    <h5>Vikrant Rona</h5>
+                    <p style="color:#666666">Adventure/Mystery/Thriller</p>
+                </div>
+                <div class="col">
+                    <a href="https://in.bookmyshow.com/vizag-visakhapatnam/movies/thank-you/ET00318311"><img height="400px" width="230px" style="border-radius:10px" src="images/thankyou.jpg"></a>
+                    <h5>Thank you</h5>
+                    <p>drama/Romantic</p>
+                </div>
+                <div class="col">
+                    <a href="https://in.bookmyshow.com/vizag-visakhapatnam/movies/sita-ramam/ET00329656"><img height="400px" width="230px" style="border-radius:10px" src="images/sitaramam.jpg"></a>
+                    <h5>Sita Ramam</h5>
+                    <p>Action/Drama/Romantic</p>
+                </div>
+                <div class="col">
+                    <a href="https://in.bookmyshow.com/vizag-visakhapatnam/movies/the-warriorr/ET00321464"><img height="400px" width="230px" style="border-radius:10px" src="images/warrior.jpg"></a>
+                    <h5>The Warriorr</h5>
+                    <p>Action/Crime/Drama</p>
+                </div>
+            </div>
+        </div>
+        <br><br><div>
+            <a href="https://in.bookmyshow.com/explore/c/stream"><img height="100px" width="1285px" style="margin-left:110px" src="images/ad.jpg"></a>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
